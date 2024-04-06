@@ -5,9 +5,22 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Inter': ['Inter'],
+        'Poppins': ['Poppins'],
+        'Lato': ['Lato'],
+      },
+      screens: {
+        's1200px': '1200px'
+      },
+      spacing: {
+        '630': '630px',
+      }
+    },
     colors: {
       "white": "#ffffff",
+      "black": "#000000",
       "blueishPurple": "#6B3CC9",
       "yuzuJam": "#F28D35",
       "iceIceBaby": "#6A44F2",
