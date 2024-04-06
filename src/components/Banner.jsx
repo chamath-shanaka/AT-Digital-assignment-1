@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 export default function Banner() {
-  const [imageSrc, setImageSrc] = useState('../img/main.png');
+  const [imageSrc, setImageSrc] = useState('../../img/main.png');
 
   useEffect(() => {
 
