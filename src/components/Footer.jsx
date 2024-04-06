@@ -7,7 +7,7 @@ export default function Footer() {
         {/* Logo */}
         <div style={{ maxWidth: "413px" }}>
           <div className="mb-4">
-            <img src="../../img/AT Digital Logo.svg" alt="log" />
+            <img src="../img/AT Digital Logo.svg" alt="log" />
           </div>
           <div>
             <p>
