@@ -13,7 +13,7 @@ export default function DesktopNav() {
   };
 
   return (
-    <nav className="bg-blueishPurple p-5 text-white sticky top-0 flex justify-between items-center">
+    <nav className="bg-blueishPurple p-5 text-white sticky top-0 flex justify-between items-center z-10">
 
       {/* normal desktop */}
       <span className="">
