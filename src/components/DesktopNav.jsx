@@ -17,7 +17,7 @@ export default function DesktopNav() {
 
       {/* normal desktop */}
       <span className="">
-        <img src="../img/AT Digital Logo.svg" alt="logo" />
+        <img src="../../img/AT Digital Logo.svg" alt="logo" />
       </span>
       <div className="hidden md:flex flex-col md:flex-row items-center">
         <ul className="flex flex-col md:flex-row">
@@ -28,7 +28,7 @@ export default function DesktopNav() {
         </ul>
       </div>
       <div className="md:hidden" onClick={toggleMenu}>
-        <img src="../img/menu icon.svg" alt="menu" />
+        <img src="../../img/menu icon.svg" alt="menu" />
       </div>
 
       {/* Hamburger menu */}

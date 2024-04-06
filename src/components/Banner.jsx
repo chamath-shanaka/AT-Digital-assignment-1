@@ -8,9 +8,9 @@ export default function Banner() {
     // handle image change at 1440px
     function handleResize() {
       if (window.innerWidth >= 1440) {
-        setImageSrc('../img/wide-main.png');
+        setImageSrc('../../img/wide-main.png');
       } else {
-        setImageSrc('../img/main.png');
+        setImageSrc('../../img/main.png');
       }
     };
 
