@@ -9,6 +9,7 @@ export default {
     colors: {
       "white": "#ffffff",
       "blueishPurple": "#6B3CC9",
+      "tricornBlack": "#2F2F2F",
     },
   },
   plugins: [],
