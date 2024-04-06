@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Banner from "./components/Banner";
 import Card_1 from "./components/Card_1";
 import Card_2 from "./components/Card_2";
+import Faq from "./components/Faq";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Card_2 />
       </div>
 
+      <Faq />
       <Footer />
     </ div>
   );
