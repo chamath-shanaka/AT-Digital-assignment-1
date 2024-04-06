@@ -16,6 +16,8 @@ export default {
       },
       spacing: {
         '630': '630px',
+        '1064': '1064px',
+        '275': '275px',
       }
     },
     colors: {
