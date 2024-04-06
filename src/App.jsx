@@ -1,15 +1,26 @@
-import './App.css'
+import "./App.css";
+import DesktopNav from "./components/DesktopNav";
+import Footer from "./components/Footer";
+import Banner from "./components/Banner";
+import Card_1 from "./components/Card_1";
+import Card_2 from "./components/Card_2";
+import Faq from "./components/Faq";
 
 function App() {
-  
   return (
-    <>
-      {/* <h1 className='bg-' */}
-      <h1 className="text-3xl font-bold underline text-center">
-      Hello world!
-    </h1>
-    </>
-  )
+    <div className="font-Inter">
+      <DesktopNav />
+      <Banner />
+
+      <div className="my-20 flex-col space-y-20">
+        <Card_1 />
+        <Card_2 />
+      </div>
+
+      <Faq />
+      <Footer />
+    </ div>
+  );
 }
 
-export default App
+export default App;
