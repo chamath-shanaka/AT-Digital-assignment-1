@@ -1,3 +1,5 @@
+import magnifierImg from "../../img/magnifier.png";
+
 export default function Card_2() {
   return (
     <div
@@ -8,7 +10,7 @@ export default function Card_2() {
       <div className="flex items-center justify-center md:order-last ">
         <div className="">
           <img
-            src="../../img/magnifier.png"
+            src={magnifierImg}
             alt="Digital Strategy Consulting"
             className="s1200px:w-full s1200px:h-auto"
           />
