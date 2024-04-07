@@ -1,19 +1,16 @@
 import { useState, useEffect } from 'react';
 
-import mainImg from '../../img/main.png';
-import wideMainImg from '../../img/main.png';
-
 export default function Banner() {
-  const [imageSrc, setImageSrc] = useState(mainImg);
+  const [imageSrc, setImageSrc] = useState('../../img/main.png');
 
   useEffect(() => {
 
     // handle image change at 1440px
     function handleResize() {
       if (window.innerWidth >= 1440) {
-        setImageSrc(wideMainImg);
+        setImageSrc('../../img/wide-main.png');
       } else {
-        setImageSrc(mainImg);
+        setImageSrc('../../img/main.png');
       }
     };
 

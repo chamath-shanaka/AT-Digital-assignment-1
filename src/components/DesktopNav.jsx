@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logo from "../../img/AT Digital Logo.svg";
 
 export default function DesktopNav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +17,7 @@ export default function DesktopNav() {
 
       {/* normal desktop */}
       <span className="">
-        <img src={logo} alt="logo" />
+        <img src="../../img/AT Digital Logo.svg" alt="logo" />
       </span>
       <div className="hidden md:flex flex-col md:flex-row items-center">
         <ul className="flex flex-col md:flex-row">

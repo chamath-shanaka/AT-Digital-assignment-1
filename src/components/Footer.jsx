@@ -1,4 +1,3 @@
-import logo from "../../img/AT Digital Logo.svg";
 
 export default function Footer() {
   return (
@@ -8,7 +7,7 @@ export default function Footer() {
         {/* Logo */}
         <div style={{ maxWidth: "413px" }}>
           <div className="mb-4">
-            <img src={logo} alt="logo" />
+            <img src="../../img/AT Digital Logo.svg" alt="log" />
           </div>
           <div>
             <p>
