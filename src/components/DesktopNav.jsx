@@ -28,7 +28,7 @@ export default function DesktopNav() {
         </ul>
       </div>
       <div className="md:hidden" onClick={toggleMenu}>
-        <img src="../img/menu icon.svg" alt="menu" />
+        <img src="../../img/menu icon.svg" alt="menu" />
       </div>
 
       {/* Hamburger menu */}
