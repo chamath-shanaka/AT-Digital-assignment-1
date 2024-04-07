@@ -1,3 +1,5 @@
+import pcImg from "../../img/pc.png";
+
 export default function Card_1() {
   return (
     <div
@@ -8,7 +10,7 @@ export default function Card_1() {
       <div className="flex items-center justify-center">
         <div className="">
           <img
-            src="../img/pc.png"
+            src={pcImg}
             alt="Web and Mobile App Development"
             className="s1200px:w-full s1200px:h-auto"
           />
