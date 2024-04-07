@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "../../img/AT Digital Logo.svg";
+import menuIcon from "../../img/menu icon.svg";
 
 export default function DesktopNav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,7 +30,7 @@ export default function DesktopNav() {
         </ul>
       </div>
       <div className="md:hidden" onClick={toggleMenu}>
-        <img src="../img/menu icon.svg" alt="menu" />
+        <img src={menuIcon} alt="menu" />
       </div>
 
       {/* Hamburger menu */}
